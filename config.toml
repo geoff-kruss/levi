@@ -1,4 +1,4 @@
-baseURL = 'https://geoff-kruss.github.io/levi'
+baseURL = 'https://geoff-kruss.github.io/levi/'
 languageCode = 'en-us'
 title = 'SIS'
 theme = 'sis'

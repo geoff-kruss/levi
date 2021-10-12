@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://domain/categories/</loc>
+    <loc>https://geoff-kruss.github.io/levi/categories/</loc>
   </url><url>
-    <loc>https://domain/</loc>
+    <loc>https://geoff-kruss.github.io/levi/</loc>
   </url><url>
-    <loc>https://domain/tags/</loc>
+    <loc>https://geoff-kruss.github.io/levi/tags/</loc>
   </url>
 </urlset>

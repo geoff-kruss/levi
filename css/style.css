@@ -1354,7 +1354,7 @@ p { font-family: sis !important; }
 	margin: 0 auto;
 	min-height: 500px;
 	background-color: white;
-	margin-top: -50px;
+	margin-top: -75px;
 	box-shadow: -21px -19px 15px -24px #888888;
 }
 
@@ -1382,18 +1382,58 @@ p { font-family: sis !important; }
 	font-size: 1.5em;
 	color: #243746;
 }
+
 .contact-row-1 input {
 	padding: 1em;
 	border-radius: 1em;
 	border: 1px solid #243746;
-	width: 300px;
+	width: 400px;
 	height: 50px;
+	font-family: sis;
+	font-size: 1.6em;
 }
 
 .row-1-item {
 	float: left;
 	width: 30%;
 	margin-right: 30px;
+}
+
+
+@media screen and (max-width: 1678px) {
+	.contact-row-1 input {
+		width: 300px;
+	}
+	.row-1-item {
+		width: 26%;
+	}
+}
+
+@media screen and (max-width: 1435px) {
+	.contact-row-1 input {
+		width: 200px;
+	}
+	.row-1-item {
+		width: 22%;
+	}
+}
+
+@media screen and (max-width: 1080px) {
+	.contact-row-1 input {
+		width: 200px;
+	}
+	.row-1-item {
+		float: none;
+	}
+	.contact-row-1 label {
+		margin-top: 10px;
+	}
+}
+
+
+.contact-row-1 input:focus {
+	outline:  none;
+	border: 1px solid #f36e21;
 }
 
 .contact-row-1 textarea {
@@ -1415,6 +1455,95 @@ p { font-family: sis !important; }
 	border-radius: 8px !important;
 	margin-top: 20px;
 	border: none !important;
+}
+
+.footer-links {
+	width: 80%;
+	margin: 0 auto;
+	min-height: 500px;
+	margin-top: 70px;
+}
+
+.left-col {
+	width: 46%;
+	min-height: 100px;
+	float: left;
+}
+
+.right-col {
+	width: 52%;
+	min-height: 100px;
+	float: right;
+}
+
+.email-subscribe {
+	border: 2px solid white;
+	margin-top: 70px;
+	background-color: #243746;
+	color: white;
+	padding: 2em;
+	width: 75%;
+	height: 70px;
+}
+
+.email-subscribe::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  font-family: sis;
+  font-size: 1.7em;
+  text-align: center;
+}
+
+.email-subscribe-button {
+	width: 75%;
+	height: 70px;
+	padding: 1.2em;
+	margin-top: 20px;
+	font-family: sis;
+	font-size: 2em;
+	font-weight: bold;
+	color: white;
+	background-color: #758592;
+	border:  none;
+}
+
+.navigate-col,
+.commercial-col,
+.domestic-col {
+	width: 32%;
+	float: left;
+}
+
+.navigate-col h3,
+.commercial-col h3,
+.domestic-col h3 {
+	color:  white;
+	font-family: sis;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.navigate-col ul,
+.commercial-col ul,
+.domestic-col ul {
+	list-style-type: none;
+	color: white;
+	padding-left: 0px !important;
+	margin-left: 0px !important;
+}
+
+.navigate-col ul li,
+.commercial-col ul li,
+.domestic-col ul li {
+	list-style-type: none;
+	color: white;
+	padding-top: 0.5em;
+}
+
+.navigate-col ul li a,
+.commercial-col ul li a,
+.domestic-col ul li a {
+	color: white;
+	font-family: sis;
 }
 
 body {

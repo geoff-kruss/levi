@@ -1,0 +1,35 @@
+baseURL = 'https://domain/'
+languageCode = 'en-us'
+title = 'SIS'
+theme = 'sis'
+[menu]
+[[menu.main]]
+  identifier = 'home'
+  name = 'Home'
+  title = 'Home'
+  url = '/'
+  weight = 1
+[[menu.main]]
+  identifier = 'about'
+  name = 'About'
+  title = 'About'
+  url = '/about-us'
+  weight = 2
+[[menu.main]]
+  identifier = 'ecosystem'
+  name = 'Our Ecosystem'
+  title = 'Our Ecosystem'
+  url = '/our-ecosystem'
+  weight = 3
+[[menu.main]]
+  identifier = 'services'
+  name = 'Products & Services'
+  title = 'Produces & Services'
+  url = '/products-services'
+  weight = 4
+[[menu.main]]
+  identifier = 'contact'
+  name = 'Contact'
+  title = 'Contact'
+  url = '/contact'
+  weight = 5
